@@ -6,7 +6,7 @@ function App() {
 
 useEffect(()=>{
    
-      fetch('http://localhost:4500').then(res=>{
+      fetch(process.env.REACT_APP_API_URL).then(res=>{
        return res.json() 
      })
      .then(myarr=>
