@@ -31,5 +31,5 @@ Thumbs.db
 .idea/
 
 # Environment variables
-
+.env
 
