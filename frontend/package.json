@@ -13,9 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prestart": "cp config.env .env",
     "start": "react-scripts start",
-    "prebuild": "cp config.env .env",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
