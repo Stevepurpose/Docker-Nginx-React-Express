@@ -18,9 +18,10 @@ function App() {
       });
   }, []);
 
+    console.log(process.env.REACT_APP_APIURL)
   return (
     <div className="App">
-      <h1>Some Even Numbers Greater than 6 and Less than 20 When Multiplied By 2</h1>
+      <h1>Even Numbers Greater than 6 and Less than 20 When Multiplied By 2</h1>
       <div>
         {myarr.map((element, index) => (
           <p key={index}>{element * 2}</p>

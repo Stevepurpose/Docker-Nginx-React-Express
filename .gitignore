@@ -32,5 +32,10 @@ Thumbs.db
 
 # Environment variables
 .env
+.env.development
 
+
+docker-compose.yml
+docker-compose.prod.yml
+docker-compose.check.yml
 
